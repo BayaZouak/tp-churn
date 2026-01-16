@@ -14,4 +14,4 @@ model.fit(X, y)
 
 # Sauvegarder le modèle avec joblib
 joblib.dump( model, 'data/churn_model_clean.pkl')
-print("Modèle de régression logistique entrainé et sauvegardé") 
+print("Modèle de régression logistique entrainé et sauvegardé")
